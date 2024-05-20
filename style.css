@@ -1,0 +1,491 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(10, 3, 27);
+}
+
+.logo img{
+    height: 30px;
+    width: 30px;
+    transform: rotate(-30deg);
+}
+.container-nav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    height: 60px;
+    align-items: center;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: rgb(211, 211, 211);
+    font-size: 18px;
+    font-weight: bold;
+    font-family: monospace;
+}
+.logo{
+    display: flex;
+    gap: 5px;
+}
+.logo h1{
+    color: rgb(192, 192, 192);
+    font-family:monospace;
+    font-size: 30px;
+}
+.garis-nav{
+    background-color: white;
+    height: 30px;
+    width: 1px;
+}
+
+
+/*Bagian Navbar*/
+
+
+
+
+/* BAGIAN SECTION 1*/
+
+.hero-sec img{
+    height: 400px;
+    width: 650px;
+}
+.container-sec1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+    gap: -1000px;
+}
+.text-bar h1{
+    font-size: 65px;
+    color: rgb(186, 186, 186);
+}
+.text-bar h5{
+    opacity: 100;
+    color: rgb(203, 203, 203);
+}
+.container-sec1{
+    display: flex;
+    position: relative;
+    text-align: center;
+    color: white; /* Warna teks */
+    font-size: 24px; /* Ukuran font */
+    font-family: Arial, sans-serif; /* Font family */
+    padding: 20px; /* Spasi dalam container */
+    background-image: linear-gradient(rgba(10, 3, 27, 0.66), rgb(10, 3, 27)), url(walpaper-satu.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+.overlay{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0); /* Warna latar belakang teks dengan opacity */
+    z-index: 0; /* Pastikan z-index lebih rendah dari teks */
+}
+.hero-sec{
+    position: relative;
+    z-index: 1;
+    filter: drop-shadow(1px 1px 10px rgba(0, 0, 0, 0.192));
+}
+.text-bar{
+    align-items: center;
+    z-index: 1;
+}
+.text-bar h5{
+    font-size: 15px;
+    color: rgb(198, 198, 198);
+}
+
+.sec1{
+    color: white;
+}
+
+
+/* SECTION 2*/
+.sec-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list-game{
+    color: white;
+}
+.mobile-legend{
+    height: 200px;
+    width: 150px;
+    border-radius: 30px;
+    background-image: url(mobile-legend.jpg);
+    background-size: cover;
+    margin-top: 50px;
+}
+.mobile-legend:hover{
+    transform: scale(102%);
+    background-size: cover;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(77, 0, 47)), url(mobile-legend.jpg);
+
+}
+
+.pubg-mobile{
+    background-color: white;
+    height: 200px;
+    width: 150px;
+    border-radius: 30px;
+    background-image: url(pubgm.jpg);
+    background-size: cover;
+    margin-top: 30px;
+
+}
+.pubg-mobile:hover{
+    transform: scale(102%);
+    background-size: cover;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(77, 0, 47)), url(pubgm.jpg);
+}
+
+.free-fire{
+    background-color: white;
+    height: 200px;
+    width: 150px;
+    border-radius: 30px;
+    background-image: url(ff.webp);
+    background-size: cover;
+}
+.free-fire:hover{
+    transform: scale(102%);
+    background-size: cover;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(77, 0, 47)), url(ff.webp);
+
+}
+
+
+.cod{
+    background-color: white;
+    height: 200px;
+    width: 150px;
+    border-radius: 30px;
+    background-image: url(codm.png);
+    background-size: cover;
+}
+.cod:hover{
+    transform: scale(102%);
+    background-size: cover;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(77, 0, 47)), url(codm.png);
+
+}
+
+.genshin{
+    background-color: white;
+    height: 200px;
+    width: 150px;
+    border-radius: 30px;
+    background-image: url(gensihn.jpg);
+    background-size: cover;
+    margin-top: 30px;
+
+}
+.genshin:hover{
+    transform: scale(102%);
+    background-size: cover;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(77, 0, 47)), url(gensihn.jpg);
+
+}
+.lol{
+    background-color: white;
+    height: 200px;
+    width: 150px;
+    border-radius: 30px;
+    background-image: url(lol.png);
+    background-size: cover;
+    margin-top: 50px;
+}
+.lol:hover{
+    transform: scale(102%);
+    background-size: cover;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(77, 0, 47)), url(lol.png);
+
+}
+.list-game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.list-game p{
+    font-size: 15px;
+    margin-top: 10px;
+    font-family:monospace;
+    font-weight: bold;
+    text-align: center;
+}
+.container-sec-2{
+    position: relative;
+    text-align: center;
+    color: white; /* Warna teks */
+    font-size: 24px; /* Ukuran font */
+    font-family: Arial, sans-serif; /* Font family */
+    padding: 100px; /* Spasi dalam container */
+    background-image: linear-gradient(rgba(10, 3, 27, 0.68), rgba(10, 3, 27, 0.961)), url(walpaper2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    flex-wrap: nowrap;
+}
+
+
+/* SECTION 3*/
+/*Game Pc*/
+
+.baground-sec-3{
+    min-height: 100vh;
+    min-width:auto;
+}
+.gambar-1{
+    background-color: aliceblue;
+    height: 500px;
+    width: 650px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.42)), url(valo.png);
+    background-size:cover;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.gambar-1:hover{
+    transform: scale(2);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(49, 224, 255, 0.276)), url(valo.png);
+
+}
+
+.gambar-2{
+    background-color: white;
+    height: 230px;
+    width: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.55)), url(dota.jpg);
+    background-size: cover;
+    border-radius: 5px;
+}
+.gambar-2:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 54, 201, 0.55)), url(dota.jpg);
+
+}
+.gambar-3{
+    background-color: bisque;
+    height: 230px;
+    width: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.374)), url(fortnite.jpg);
+    background-size: cover;
+    border-radius: 5px;
+}
+.gambar-3:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(1, 90, 84, 0.484)), url(fortnite.jpg);
+
+}
+.gambar-kanan{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.container-sec-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.pc-game h1{
+    font-family: monospace;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    justify-content:space-around;
+    margin-top: 20px;
+
+}
+.garis-valo{
+    background-color: rgb(218, 44, 44);
+    height: 60px;
+    width: 1px;
+}
+
+.logo-valo img{
+    height: 50px;
+    width: 80px;
+}
+.btn-valoran {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 30px;
+    margin-left: 20px;
+    margin-top: -50px;
+    transition: 0.5s;
+    color: rgb(236, 236, 236);
+}
+.btn-valoran:hover{
+    gap: 10px;
+    color: rgb(179, 178, 178);
+    background-color: none;
+}
+.gambar-1{
+    display: flex;
+    align-items: end;
+    box-shadow:  1px 1px 50px rgba(209, 211, 255, 0.301);
+}
+.text-logo-valo h1{
+    font-size: 30px;
+    font-family:monospace;
+}
+
+.text-logo-valo p{
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.gambar-2 img{
+    width: 50px;
+    height: 50px;
+}
+
+.gambar-2{
+    display: flex;
+    align-items: end;
+    box-shadow:  1px 1px 50px rgba(209, 211, 255, 0.242);
+}
+.garis-dota{
+    background-color: aliceblue;
+    height: 50px;
+    width: 1px;
+    display: flex;
+    align-items: center;
+}
+.btn-dota2{
+    display: flex;
+    gap: 20px;
+    margin-left: 10px;
+    transition: 0.5s;
+    
+}
+.btn-dota2:hover{
+    gap: 8px;
+    color: rgb(201, 201, 201);
+    background-color: rgba(0, 0, 0, 0);
+}
+.text-dota{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-dota h1{
+    font-family: monospace;
+}
+.gambar-dota{
+    display: flex;
+    align-items: center;
+}
+
+/* FORTNITE */
+
+.fortnite img{
+    height: 50px;
+    width: 70px;
+    
+}
+
+.garis-fortnite{
+    background-color: aliceblue;
+    height: 50px;
+    width: 1px;
+    display: flex;
+    align-items: center;
+}
+
+.text-fortnite h1{
+    font-family: monospace;
+}
+.gambar-3{
+    display: flex;
+    align-items: end;
+}
+
+
+.text-fortnite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-fortnite{
+    display: flex;
+    gap: 18px;
+    transition: 0.5s;
+}
+.btn-fortnite:hover{
+    gap: 5px;
+    color: rgb(255, 255, 255);
+}
+
+/*RESPONSIVE*/
+
+@media (max-width: 470px){
+    .container-nav{
+        min-width: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-sec1{
+        min-width: 100vh;
+        display: flex;
+    }
+    .text-bar{
+        white-space: nowrap;
+        margin-right: 100px;
+        
+    }
+    .text-bar h1{
+        font-size: 30px;
+    }
+    .text-bar h5{
+        font-size: 7px;
+    }
+
+    .container-sec-2{
+        min-width: 100vh;
+        margin-left: 80px;
+    }
+    .sec-2{
+        min-width: 110vh;
+    }
+    .baground-sec-3{
+        margin-left: 550px;
+    }
+    .pc-game{
+        white-space: nowrap;
+    }
+    
+    
+}
+
